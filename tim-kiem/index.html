@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPT Play - Tìm Kiếm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/data.css">
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/icon/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="icon" href="https://fptplay.vn/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+    <div class="main-search">
+
+        <div class="header-home">
+
+            <div class="fpt__play">
+                <div class="header__menu">
+                    <div class="header__menu--icon">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div class="fpt__logo">
+                    <a href="../index.html">
+                        <img src="../assets/img/logo.png" alt="" class="fpt__logo--img">
+                    </a>
+                </div>
+                <div class="fpt__movie">
+                    <ul class="fpt__movie--film hide-tablet-mobile">
+                        <li class="fpt__film--item"><a href="../index.html" class="fpt__film--link">Trang
+                                chủ</a></li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">Truyền
+                                hình</a></li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">HBO GO</a>
+                        </li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">Phim bộ</a>
+                        </li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">Thể thao</a>
+                        </li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">Anime</a>
+                        </li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">TV show</a>
+                        </li>
+                        <li class="fpt__film--item fpt__film--item-hover"><a href="" class="fpt__film--link">Xem
+                                thêm</a>
+                            <ul class="fpt__film--menu">
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Phim lẻ</a>
+                                </li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Phim chiếu
+                                        rạp</a></li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Gói đặc
+                                        sắc</a></li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Thiếu nhi</a>
+                                </li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Hài</a></li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Edumall</a>
+                                </li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Học Online</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fpt__search">
+                    <ul class="fpt__user hide-tablet-mobile">
+                        <li class="fpt__user--item"><a href="" class="fpt__user--icon">
+                                <i class="fas fa-search"></i>
+                            </a></li>
+                        <li class="fpt__user--item"><a href="../mua-goi/" class="fpt__user--oder">Mua gói</a></li>
+                        <li class="fpt__user--item"><a href="../dang-nhap/" class="fpt__user--login">Đăng nhập</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-search">
+            <div class="container__search--item">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="container__key">
+                                <input type="text" placeholder="Tìm kiếm tại đây" class="container__key--input">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-body">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-6 m-12 c-12">
+                        <div class="list-item">
+                            <h4 class="list-item-title">Phim bộ</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Hoa ngữ,</a>
+                                <a href="" class="all-type-link">Hàn Quốc,</a>
+                                <a href="" class="all-type-link">Thái Lan,</a>
+                                <a href="" class="all-type-link">Việt Nam,</a>
+                                <a href="" class="all-type-link">Âu Mỹ, ...</a>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <h4 class="list-item-title">TV show</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Reality show,</a>
+                                <a href="" class="all-type-link">Game show,</a>
+                                <a href="" class="all-type-link">Mâm nhà,</a>
+                                <a href="" class="all-type-link">Live show,</a>
+                                <a href="" class="all-type-link">Trải nghiệm cuộc sống,</a>
+                                <a href="" class="all-type-link">Hot clip, ...</a>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <h4 class="list-item-title">Anime</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Mùa hè 2021,</a>
+                                <a href="" class="all-type-link">Hành động,</a>
+                                <a href="" class="all-type-link">Viễn tưởng,</a>
+                                <a href="" class="all-type-link">Tình cảm,</a>
+                                <a href="" class="all-type-link">Hoạt hình Trung Quốc, ...</a>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <h4 class="list-item-title">Phim lẻ</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Hành động,</a>
+                                <a href="" class="all-type-link">Gia đình,</a>
+                                <a href="" class="all-type-link">Hài hước,</a>
+                                <a href="" class="all-type-link">Kinh dị,</a>
+                                <a href="" class="all-type-link">Tâm lý, ...</a>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <h4 class="list-item-title">Phim chiếu rạp</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Hành động,</a>
+                                <a href="" class="all-type-link">Hài hước,</a>
+                                <a href="" class="all-type-link">Tâm lý, ...</a>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <h4 class="list-item-title">Gói đặc sắc</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Hành động,</a>
+                                <a href="" class="all-type-link">Hài hước,</a>
+                                <a href="" class="all-type-link">Kinh dị,</a>
+                                <a href="" class="all-type-link">Tâm lý,</a>
+                                <a href="" class="all-type-link">Viễn tưởng,</a>
+                                <a href="" class="all-type-link">Tài liệu, ...</a>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <h4 class="list-item-title">Thiếu nhi</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Hoạt hình,</a>
+                                <a href="" class="all-type-link">Âm nhạc,</a>
+                                <a href="" class="all-type-link">Chơi mà học,</a>
+                                <a href="" class="all-type-link">Truyện cổ tích, ...</a>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <h4 class="list-item-title">Hài</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Nổi bật,</a>
+                                <a href="" class="all-type-link">Loa Phường,</a>
+                                <a href="" class="all-type-link">Trắng TV,</a>
+                                <a href="" class="all-type-link">Thiên Biến Vạn Hóa, ...</a>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <h4 class="list-item-title">Edumall</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Đời sống,</a>
+                                <a href="" class="all-type-link">Sức khỏe,</a>
+                                <a href="" class="all-type-link">Gia đình, ...</a>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <h4 class="list-item-title">Học Online</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Lớp 4,</a>
+                                <a href="" class="all-type-link">Lớp 5,</a>
+                                <a href="" class="all-type-link">Lớp 6,</a>
+                                <a href="" class="all-type-link">Lớp 7,</a>
+                                <a href="" class="all-type-link">Lớp 8,</a>
+                                <a href="" class="all-type-link">Lớp 9,</a>
+                                <a href="" class="all-type-link">Lớp 10,</a>
+                                <a href="" class="all-type-link">Lớp 11,</a>
+                                <a href="" class="all-type-link">Lớp 12, ...</a>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <h4 class="list-item-title">Thể thao</h4>
+                            <div class="all-type">
+                                <a href="" class="all-type-link">Tất cả,</a>
+                                <a href="" class="all-type-link">Tuyển Việt Nam,</a>
+                                <a href="" class="all-type-link">Cúp Châu Á,</a>
+                                <a href="" class="all-type-link">Xem lại trận đấu,</a>
+                                <a href="" class="all-type-link">Quốc tế,</a>
+                                <a href="" class="all-type-link">Bóng rổ,</a>
+                                <a href="" class="all-type-link">Cúp Châu Âu,</a>
+                                <a href="" class="all-type-link">MMA,</a>
+                                <a href="" class="all-type-link">V-League,</a>
+                                <a href="" class="all-type-link">Bộ môn khác, ...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12">
+                        <div class="search-tag">
+                            <div class="list-tag">
+                                <h4 class="list-tag-title">Tìm kiếm hàng đầu</h4>
+                                <ul class="list-tag-item">
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">Thử Thách Thần Tượng</a>
+                                    </li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">chàng hậu</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">fairy tail</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">running man</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">vô tình nhặt được tổng
+                                            tài</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">con tim sắt đá</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">yêu tinh</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">lưỡi gươm diệt quỷ</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">ngôi sao khoai tây</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">vẻ đẹp đích thực</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">nữ thanh tra tài ba</a>
+                                    </li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">kimetsu no yaiba</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">lưu ly mỹ nhân sát</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">mặt trời của chàng joo</a>
+                                    </li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">tokyo ghoul</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">cuộc chiến thượng lưu</a>
+                                    </li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">cá mực hầm mật</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">hậu cung như ý truyện</a>
+                                    </li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">chiêu trò lừa gạt</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">nỗi vương vấn của hạ tiên
+                                            sinh</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">bằng chứng thép</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">thẩm phán ác ma</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">hậu duệ mặt trời</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">hoa du ký</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">true beauty</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">anh trai nhà đối diện</a>
+                                    </li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">hội pháp sư</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">hương mật tựa khói
+                                            sương</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">vườn sao băng</a></li>
+                                    <li class="list-tag-li"><a href="" class="list-tag-link">thanh xuân vật vã</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-home">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2 m-12 c-12">
+                        <div class="footer-banner">
+                            <a href="">
+                                <img src="../assets/img/hbo/logo-2.png" alt="" class="footer-banner-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-7 m-12 c-12">
+                        <div class="footer-advertisement">
+                            <ul class="footer-advertisement-item">
+                                <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Gói
+                                        data</a></li>
+                                <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Quảng
+                                        cáo</a></li>
+                                <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Dịch
+                                        vụ</a></li>
+                                <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Điều
+                                        khoản</a></li>
+                                <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Chính
+                                        sách</a></li>
+                                <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Liên
+                                        hệ</a></li>
+                                <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Cửa
+                                        hàng</a></li>
+                            </ul>
+                            <ul class="footer-partner">
+                                <li class="footer-partner-item"><img src="../assets/img/footer/footer-1.png" alt=""
+                                        class="footer-partner-img"></li>
+                                <li class="footer-partner-item"><img src="../assets/img/footer/footer-2.png" alt=""
+                                        class="footer-partner-img"></li>
+                                <li class="footer-partner-item"><img src="../assets/img/footer/footer-3.png" alt=""
+                                        class="footer-partner-img"></li>
+                                <li class="footer-partner-item"><img src="../assets/img/footer/footer-4.png" alt=""
+                                        class="footer-partner-img"></li>
+                                <li class="footer-partner-item"><img src="../assets/img/footer/footer-5.png" alt=""
+                                        class="footer-partner-img"></li>
+                                <li class="footer-partner-item"><img src="../assets/img/footer/footer-6.png" alt=""
+                                        class="footer-partner-img"></li>
+                            </ul>
+                        </div>
+                        <div class="footer__address">
+                            <p class="footer__address--item">Công ty Cổ phần Viễn Thông FPT - Người đại diện: Ông Hoàng
+                                Việt Anh</p>
+                            <p class="footer__address--item">Trụ sở: Tầng 8, tòa nhà FPT Tower, số 10 Phạm Văn Bạch, Cầu
+                                Giấy, Hà Nội</p>
+                            <p class="footer__address--item">Điện thoại: 19006600. Email: support@fptplay.net</p>
+                            <p class="footer__address--item">Số giấy chứng nhận đăng ký kinh doanh: 0101778163 do Sở Kế
+                                Hoạch Đầu Tư Thành Phố Hà Nội cấp vào ngày 28/07/2005</p>
+                            <p class="footer__address--item">Giấy phép Cung cấp Dịch vụ Phát thanh, Truyền hình trên
+                                mạng Internet số 568/GP-BTTTT cấp ngày 7/12/2020</p>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-12 c-12">
+                        <div class="footer-contact">
+                            <ul class="footer__contact--item">
+                                <li style="margin-top: 0;" class="footer__contact--link">
+                                    <a href="" class="footer__contact--icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__contact--link">
+                                    <a href="" class="footer__contact--icon-support">
+                                        <i class="fas fa-question-circle"></i>
+                                        Hỗ Trợ
+                                    </a>
+                                </li>
+                                <li class="footer__contact--link">
+                                    <a href="" class="footer__contact--icon-phone">
+                                        <i class="fas fa-phone-alt"></i>
+                                        19006600
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="../dang-nhap/" class="banner-box-item"><img src="../assets/img/fixd/goto-box-1.png" alt=""
+                class="banner-box-img"></a>
+
+        <div class="header__menu--box">
+            <div class="close">
+                <i class="far fa-times-circle"></i>
+            </div>
+            <ul class="header__menu--box-block">
+                <a href="../index.html">
+                    <li class="header__menu--box-item">Trang chủ</li>
+                </a>
+                <li class="header__menu--box-item">Truyền hình</li>
+                <li class="header__menu--box-item">HBO GO</li>
+                <li class="header__menu--box-item">Phim bộ</li>
+                <li class="header__menu--box-item">Thể thao</li>
+                <li class="header__menu--box-item">Anime</li>
+                <li class="header__menu--box-item">TV show</li>
+                <li class="header__menu--box-item header__menu--box-item-fixx">Xem thêm
+                    <i class="fas fa-caret-down"></i>
+                    <ul class="header__menu--show">
+                        <li class="header__menu--show-item">Phim lẻ</li>
+                        <li class="header__menu--show-item">Phim chiếu rạp</li>
+                        <li class="header__menu--show-item">Gói đặc sắc</li>
+                        <li class="header__menu--show-item">Thiếu nhi</li>
+                        <li class="header__menu--show-item">Hài</li>
+                        <li class="header__menu--show-item">Edumall</li>
+                        <li class="header__menu--show-item">Học Online</li>
+                    </ul>
+                <li class="header__menu--item-hide">Ẩn
+                    <i class="fas fa-angle-up"></i>
+                </li>
+                </li>
+                <li class="header__menu--box-item">
+                    <a style="color: #212121;" href="../tim-kiem/"> <i class="fas fa-search"></i></a>
+                </li>
+                <a href="../mua-goi/">
+                    <li class="header__menu--box-item">Mua gói</li>
+                </a>
+                <a href="../dang-ky/">
+                    <li class="header__menu--box-item">Đăng ký</li>
+                </a>
+                <a href="../dang-nhap/">
+                    <li class="header__menu--box-item">Đăng nhập</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="back-to-top">
+            <a class="back-to-top-click" href="#">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+
+
+
+    <script src="./search.js"></script>
+</body>
+
+</html>

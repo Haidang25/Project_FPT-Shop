@@ -1,0 +1,485 @@
+
+    /*  Mobile & Tablet */
+@media (max-width: 63.9375em) {
+
+    .main-home {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        overflow: hidden;
+    }
+
+    .hide-tablet-mobile {
+        display: none;
+    }
+
+    .header__menu {
+        display: block;
+    }
+
+
+    /* Trang Tìm Kiếm */
+   
+    .main-search {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        overflow: hidden;
+    }
+
+    .main-login {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        overflow: hidden;
+    }
+
+    .main-register {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        overflow: hidden;
+    }
+
+    .banner-box-item {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        overflow: hidden;
+    }
+
+    .main-package {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        overflow: hidden;
+    }
+
+}
+
+/* Tablet: min-width >= 740px and max-width < 1023px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+    .hide-tablet {
+        display: none;
+    }
+
+    .fpt__logo {
+        display: flex;
+        margin: auto;
+    }
+
+    .slider__home--transfer {
+        bottom: -150px;
+    }
+
+    .slider__home--link {
+        padding-top: 50px;
+    }
+
+    .product__transfer {
+        bottom: -35px;
+    }
+
+    .anime-transfer {
+        bottom: -155px;
+    }
+
+    .hbo-transfer {
+        bottom: -150px;
+    }
+
+    .footer-banner {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-advertisement {
+        display: grid;
+    }
+
+    .footer-advertisement-item {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }   
+
+    .footer-partner {
+        justify-content: center;
+    }
+
+    .footer__address {
+        text-align: center;
+    }
+
+    .footer-contact {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    /* Trang Tìm Kiếm */
+
+    /* Trang mua gói */
+
+    .package-description-title {
+        line-height: 2.5rem;
+    }
+
+    .package-chanel {
+        width: 100%;
+    }
+
+    .package-max {
+        height: 645px;
+    }
+
+    .btn-right {
+        margin-top: 20px;
+    }
+
+    .support-platform-item-link {
+        padding: 0 8px;
+    }
+
+    .upgrade {
+        padding: 0;
+    }
+
+    .package-chanel-vip {
+        width: 38%;
+    }
+
+    .package-description-title-vip {
+        line-height: 2.5rem;
+    }
+
+    .package-vip {
+        height: 720px;
+    }   
+
+    .container-package {
+        padding-top: 10%;
+    }
+
+
+}
+
+/* Mobile: max-width < 739px */
+@media only screen and (max-width: 46.1875em) {
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .fpt__play {
+        justify-content: space-between;
+    }
+
+    .fpt__logo {
+        margin-left: 50px;
+    }
+
+    .container-home {
+        margin: 0 24px;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .slider-home {
+        padding-bottom: 30px;
+    }
+
+    .slider__home--transfer {
+        bottom: -125px;
+    }
+
+    .slider__transfer--prev {
+        background-color: transparent;
+    }
+
+    .slider__transfer--next {
+        background-color: transparent;
+    }
+
+    .description-name {
+        font-size: 1.8rem;
+    }
+
+    .description-link {
+        line-height: 2rem;
+    }
+
+    .product__transfer {
+        bottom: -10px;
+    }
+
+    .hot-transfer {
+        bottom: -70px;
+    }
+
+    .anime-transfer {
+        bottom: -80px;
+    }
+
+    .hbo-transfer {
+        bottom: -90px;
+    }
+
+    .parallel-img {
+        height: 15px;
+    }
+
+    .slider__home--link {
+        padding-top: 57px;
+    }
+
+    .footer-banner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-advertisement {
+        display: block;
+    }
+
+    .footer-advertisement-item {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .footer-advertisement-link {
+        font-size: 1.1rem;
+    }
+
+    .footer-partner {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .footer__address--item {
+        text-align: center;
+        margin: 0 15px;
+    }
+
+    .footer-contact {
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+    .footer__contact--link {
+        text-align: center;
+    }
+
+    /* Trang Tìm Kiếm */
+
+    .list-item {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .search-tag {
+        margin: 0 24px;
+    }
+
+    /* trang mua gói */
+
+    .package-description-title {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    .package-description-info {
+        font-size: 1.2rem;
+    }
+
+    .package-max {
+        height: 600px;
+    }
+
+    .package-chanel {
+        display: none;
+    }
+
+    .support-platform-item-link {
+        padding: 0 5px;
+    }
+
+    .btn-right {
+        margin-top: 20px;
+    }
+
+    .upgrade {
+        padding-top: 14.3%;
+    }
+
+    .package-chanel-vip {
+        display: none;
+    }
+
+    .package-description-title-vip {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .package-vip {
+        height: 780px;
+    }
+
+}
+
+/* ipad pro */
+
+@media only screen and (min-width: 64em) and (max-width: 85.3125em) {
+    
+    .main-home {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .fpt__film--item {
+        padding: 0 5px;
+    }
+
+    .footer-advertisement {
+        display: block;
+    }
+
+    .footer-advertisement-item {
+        padding: 10px 0;
+    }
+
+    .footer-advertisement-item {
+        justify-content: center;
+    }
+
+    .footer-partner {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    /* Trang mua gói */
+
+    .package-max {
+        height: 480px;
+    }
+
+    .package-description-title {
+        font-size: 1.9rem;
+    }
+
+    .package-chanel {
+        width: 42.2%;
+    }
+
+    .package-description-title-vip {
+        font-size: 1.8rem;
+    }
+
+    .package-vip {
+        height: 555px;
+    }
+
+    .package-chanel-vip {
+        width: 26%;
+    }
+
+    .main-package {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        overflow: hidden;
+    }
+
+    body {
+        background-color: #000;
+    }
+
+}
+
+
+/* ip 678  */
+
+@media only screen and (min-width: 23.4375em) and (max-width: 25.875em) {
+
+    .product__transfer {
+        bottom: -5px;
+    }
+
+    .footer-advertisement-link {
+        font-size: 1rem;
+    }
+
+    
+    .package-max {
+        height: 630px;
+    }
+
+    .support-platform-item-link {
+        font-size: 1.3rem;
+    }
+
+    .package-vip {
+        height: 835px;
+    }
+
+    .container-package {
+        padding-top: 5%;
+    }
+
+}
+
+/* ip 5s */
+
+@media only screen and (min-width: 20em) and (max-width: 23.375em) {
+
+    .product__transfer {
+        bottom: 0;
+    }
+
+    .description-name {
+        font-size: 1.5rem;
+    }
+
+    .hot-transfer {
+        bottom: -40px;
+    }
+
+    .anime-transfer {
+        bottom: -60px;
+    }
+
+    .hbo-transfer {
+        bottom: -60px;
+    }
+
+    .parallel-img {
+        height: 12px;
+    }
+
+    .footer-advertisement-link {
+        font-size: 0.8rem;
+    }
+
+    .support-platform-item-link {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .package-max {
+        height: 800px;
+    }
+
+    .upgrade {
+        padding-top: 19.3%;
+    }
+
+    .package-vip {
+        height: 945px;
+    }
+
+}

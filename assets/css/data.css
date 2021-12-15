@@ -1,0 +1,137 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --primary-color: #ff6500;
+    --hover-color: #e35b01;
+    --text-color: #9B9B9B;
+    --title-color: #a94605;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    line-height: 1.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes hoverMenu {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.header__menu--icon {
+    font-size: 2.4rem;
+    color: var(--white-color);
+}
+
+.header__menu--box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: var(--white-color);
+    min-width: 320px;
+    height: 100%;
+    overflow-y: auto;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.header__menu--box-block {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.header__menu--box-item {
+    font-size: 1.5rem;
+    color: #212121;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.header__menu--item-hide {
+    font-size: 1.6rem;
+    color: red;
+    padding: 10px 20px;
+    font-weight: 800;
+    display: none;
+    text-align: center;
+}
+
+.header__menu--box-item:nth-child(1) {
+    color: var(--hover-color);
+}
+
+.header__menu--show {
+    padding: 20px 10px 0 10px;
+    display: none;
+}
+
+.header__menu--show-item {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #212121;
+    padding: 10px 0;
+}
+
+.block-menu {
+    display: block;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2.2rem;
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: var(--white-color);
+    z-index: 9;
+}
+
+.back-to-top {
+    position: fixed;
+    font-size: 2.4rem;
+    transition: all 0.5s;
+    opacity: 0;
+    transform: translateX(100%);
+    z-index: 8;
+}
+
+.back-to-top-click {
+    color: var(--white-color);
+    background-color: var(--title-color);
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.top-home {
+    bottom: 50px;
+    right: 50px;
+    transition: all 0.5s;
+    opacity: 1;
+    transform: translateX(0);
+}
