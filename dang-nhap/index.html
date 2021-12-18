@@ -1,0 +1,246 @@
+<!-- Nguyễn Hải Đăng - B1910054 -->
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPT Play - Đăng nhập</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/data.css">
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <link rel="stylesheet" href="../assets/css/grid.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/icon/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="icon" href="https://fptplay.vn/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+    <main class="main-login">
+
+        <header class="header-home">
+
+            <nav class="fpt__play">
+                <section class="header__menu">
+                    <div class="header__menu--icon">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </section>
+                <section class="fpt__logo">
+                    <a href="../index.html">
+                        <img src="../assets/img/logo.png" alt="" class="fpt__logo--img">
+                    </a>
+                </section>
+                <section class="fpt__movie">
+                    <ul class="fpt__movie--film hide-tablet-mobile">
+                        <li class="fpt__film--item"><a href="../index.html" class="fpt__film--link">Trang
+                                chủ</a></li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">Truyền
+                                hình</a></li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">HBO GO</a>
+                        </li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">Phim bộ</a>
+                        </li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">Thể thao</a>
+                        </li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">Anime</a>
+                        </li>
+                        <li class="fpt__film--item"><a href="" class="fpt__film--link">TV show</a>
+                        </li>
+                        <li class="fpt__film--item fpt__film--item-hover"><a href="" class="fpt__film--link">Xem
+                                thêm</a>
+                            <ul class="fpt__film--menu">
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Phim lẻ</a>
+                                </li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Phim chiếu
+                                        rạp</a></li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Gói đặc
+                                        sắc</a></li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Thiếu nhi</a>
+                                </li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Hài</a></li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Edumall</a>
+                                </li>
+                                <li class="fpt__film--menu--item"><a href="" class="fpt__film--menu-lnik">Học Online</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="fpt__search">
+                    <ul class="fpt__user hide-tablet-mobile">
+                        <li class="fpt__user--item">
+                            <a href="../tim-kiem/" class="fpt__user--icon">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </li>
+                        <li class="fpt__user--item"><a href="../mua-goi/" class="fpt__user--oder">Mua gói</a></li>
+                        <li class="fpt__user--item"><a href="../dang-nhapindex.html" class="fpt__user--login">Đăng nhập</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </header>
+
+        <article class="container__login">
+            <h3 class="login-title">Đăng nhập</h3>
+            <h3 class="login-title-error">Lỗi</h3>
+            <section class="form__login">
+                <section class="login">
+                    <section class="user-login">
+                        <input id="name" type="text" placeholder="Điện thoại">
+                        <input id="pass" type="password" placeholder="Mật khẩu">
+                        <section class="btn-login">
+                            <button class="button-login">Đăng Nhập</button>
+                        </section>
+                        <section class="forgot">
+                            <a href="" class="forgot-link">Quên mật khẩu</a>
+                            <span class="forgot-item">Hoặc</span>
+                        </section>
+                        <section class="facebook-login">
+                            <a href="https://www.facebook.com/"><button class="facebook">Facebook</button></a>
+                            <a href="https://www.google.com.vn/"><button class="google">Google</button></a>
+                        </section>
+                        <section class="login-not-yet">
+                            <span style="color: #6a6d70;">Chưa có tài khoản</span>
+                            <section class="login-not-yet-fixx">
+                                <a href="../dang-ky/" class="login-dk">Đăng ký ngay.</a>
+                                <a href="" class="login-cs">Chính sách và quy định</a>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="error">
+                        <div class="error-icon">
+                            <i class="fas fa-info"></i>
+                        </div>
+                        <h3 class="bad-news">Xảy ra lỗi trong quá trình đăng nhập!</h3>
+                        <button class="retry">Thử lại</button>
+                    </section>
+                </section>
+            </section>
+
+            <footer class="footer-home">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-2 m-12 c-12">
+                            <section class="footer-banner">
+                                <a href="">
+                                    <img src="../assets/img/hbo/logo-2.png" alt="" class="footer-banner-img">
+                                </a>
+                            </section>
+                        </div>
+                        <div class="col l-7 m-12 c-12">
+                            <section class="footer-advertisement">
+                                <ul class="footer-advertisement-item">
+                                    <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Gói
+                                        data</a></li>
+                                    <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Quảng
+                                        cáo</a></li>
+                                    <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Dịch
+                                        vụ</a></li>
+                                    <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Điều
+                                        khoản</a></li>
+                                    <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Chính
+                                        sách</a></li>
+                                    <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Liên
+                                        hệ</a></li>
+                                    <li class="footer-advertisement-li"><a href="" class="footer-advertisement-link">Cửa
+                                        hàng</a></li>
+                                </ul>
+                                <ul class="footer-partner">
+                                    <li class="footer-partner-item"><img src="../assets/img/footer/footer-1.png" alt="" class="footer-partner-img"></li>
+                                    <li class="footer-partner-item"><img src="../assets/img/footer/footer-2.png" alt="" class="footer-partner-img"></li>
+                                    <li class="footer-partner-item"><img src="../assets/img/footer/footer-3.png" alt="" class="footer-partner-img"></li>
+                                    <li class="footer-partner-item"><img src="../assets/img/footer/footer-4.png" alt="" class="footer-partner-img"></li>
+                                    <li class="footer-partner-item"><img src="../assets/img/footer/footer-5.png" alt="" class="footer-partner-img"></li>
+                                    <li class="footer-partner-item"><img src="../assets/img/footer/footer-6.png" alt="" class="footer-partner-img"></li>
+                                </ul>
+                            </section>
+                            <address class="footer__address">
+                                <p class="footer__address--item">Công ty Cổ phần Viễn Thông FPT - Người đại diện: Ông Hoàng Việt Anh</p>
+                                <p class="footer__address--item">Trụ sở: Tầng 8, tòa nhà FPT Tower, số 10 Phạm Văn Bạch, Cầu Giấy, Hà Nội</p>
+                                <p class="footer__address--item">Điện thoại: 19006600. Email: support@fptplay.net</p>
+                                <p class="footer__address--item">Số giấy chứng nhận đăng ký kinh doanh: 0101778163 do Sở Kế Hoạch Đầu Tư Thành Phố Hà Nội cấp vào ngày 28/07/2005</p>
+                                <p class="footer__address--item">Giấy phép Cung cấp Dịch vụ Phát thanh, Truyền hình trên mạng Internet số 568/GP-BTTTT cấp ngày 7/12/2020</p>
+                            </address>
+                        </div>
+                        <div class="col l-3 m-12 c-12">
+                            <section class="footer-contact">
+                                <ul class="footer__contact--item">
+                                    <li style="margin-top: 0;" class="footer__contact--link">
+                                        <a href="" class="footer__contact--icon">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="footer__contact--link">
+                                        <a href="" class="footer__contact--icon-support">
+                                            <i class="fas fa-question-circle"></i> Hỗ Trợ
+                                        </a>
+                                    </li>
+                                    <li class="footer__contact--link">
+                                        <a href="" class="footer__contact--icon-phone">
+                                            <i class="fas fa-phone-alt"></i> 19006600
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+    </main>
+
+    <a href="../dang-nhap/" class="banner-box-item"><img src="../assets/img/fixd/goto-box-1.png" alt="" class="banner-box-img"></a>
+
+    <aside class="header__menu--box">
+        <section class="close">
+            <i class="far fa-times-circle"></i>
+        </section>
+        <ul class="header__menu--box-block">
+            <a href="../index.html">
+                <li class="header__menu--box-item">Trang chủ</li>
+            </a>
+            <li class="header__menu--box-item">Truyền hình</li>
+            <li class="header__menu--box-item">HBO GO</li>
+            <li class="header__menu--box-item">Phim bộ</li>
+            <li class="header__menu--box-item">Thể thao</li>
+            <li class="header__menu--box-item">Anime</li>
+            <li class="header__menu--box-item">TV show</li>
+            <li class="header__menu--box-item header__menu--box-item-fixx">Xem thêm
+                <i class="fas fa-caret-down"></i>
+                <ul class="header__menu--show">
+                    <li class="header__menu--show-item">Phim lẻ</li>
+                    <li class="header__menu--show-item">Phim chiếu rạp</li>
+                    <li class="header__menu--show-item">Gói đặc sắc</li>
+                    <li class="header__menu--show-item">Thiếu nhi</li>
+                    <li class="header__menu--show-item">Hài</li>
+                    <li class="header__menu--show-item">Edumall</li>
+                    <li class="header__menu--show-item">Học Online</li>
+                </ul>
+                <li class="header__menu--item-hide">Ẩn
+                    <i class="fas fa-angle-up"></i>
+                </li>
+            </li>
+            <li class="header__menu--box-item">
+                <a style="color: #212121;" href="../tim-kiem/"><i class="fas fa-search"></i></a>
+            </li>
+            <a href="../mua-goi/">
+                <li class="header__menu--box-item">Mua gói</li>
+            </a>
+            <a href="../dang-ky/">
+                <li class="header__menu--box-item">Đăng ký</li>
+            </a>
+            <a href="../dang-nhap/">
+                <li class="header__menu--box-item">Đăng nhập</li>
+            </a>
+        </ul>
+
+        </main>
+
+
+
+        <script src="./login.js"></script>
+</body>
+
+</html>

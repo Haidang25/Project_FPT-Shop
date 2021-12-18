@@ -1,7 +1,8 @@
+// Nguyễn Hải Đăng - B1910054
 var packages = {
 
-
-    menuMobileChild: function () {
+    //Show menu phụ
+    menuMobileChild: function() {
         var showMenuChild = document.querySelector('.header__menu--box-item-fixx');
 
         var menuChild = document.querySelector('.header__menu--show');
@@ -10,34 +11,34 @@ var packages = {
 
 
 
-        showMenuChild.addEventListener('click', function () {
+        showMenuChild.addEventListener('click', function() {
             menuChild.classList.add('block-menu')
             hideMenuChild.style.display = 'block';
         })
 
-        hideMenuChild.addEventListener('click', function () {
+        hideMenuChild.addEventListener('click', function() {
             menuChild.classList.remove('block-menu')
             hideMenuChild.style.display = 'none';
         })
     },
-
-    showMenuMobile: function () {
+    //Show menu mobile
+    showMenuMobile: function() {
         var menu = document.querySelector('.header__menu--icon');
 
         var boxMenu = document.querySelector('.header__menu--box');
 
         var closeMenu = document.querySelector('.close')
 
-        menu.addEventListener('click', function () {
+        menu.addEventListener('click', function() {
             boxMenu.classList.add('header__menu--box-block')
         })
 
-        closeMenu.addEventListener('click', function () {
+        closeMenu.addEventListener('click', function() {
             boxMenu.classList.remove('header__menu--box-block')
         })
     },
-
-    more: function () {
+    //Hiện văn bản khi nhấp 'Xem thêm'
+    more: function() {
 
         var showMore = document.querySelector('.more');
 
@@ -45,21 +46,21 @@ var packages = {
 
         var hideMore = document.querySelector('.more-hide');
 
-        showMore.addEventListener('click', function () {
+        showMore.addEventListener('click', function() {
             description.style.display = 'inline-block';
             showMore.style.display = 'none';
             hideMore.style.display = 'inline-block';
         })
 
-        hideMore.addEventListener('click', function () {
+        hideMore.addEventListener('click', function() {
             description.style.display = 'none';
             showMore.style.display = 'inline-block';
             hideMore.style.display = 'none';
         })
 
     },
-
-    vip: function () {
+    //Hiện văn bản khi nhấp 'Xem thêm'
+    vip: function() {
 
         var moreVip = document.querySelector('.more-vip');
 
@@ -77,7 +78,7 @@ var packages = {
 
         var An = document.querySelector('.more-hide-vip');
 
-        moreVip.addEventListener('click', function () {
+        moreVip.addEventListener('click', function() {
             fullHide.style.display = 'block';
             fullHide2.style.display = 'block';
             fullHide3.style.display = 'block';
@@ -87,7 +88,7 @@ var packages = {
             moreVip.style.display = 'none';
         })
 
-        An.addEventListener('click', function () {
+        An.addEventListener('click', function() {
             fullHide.style.display = 'none';
             fullHide2.style.display = 'none';
             fullHide3.style.display = 'none';
@@ -98,8 +99,8 @@ var packages = {
         })
 
     },
-
-    packagesStart: function () {
+    //Thực hiện các công việc
+    packagesStart: function() {
         this.more()
         this.vip();
         this.menuMobileChild();

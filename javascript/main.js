@@ -1,9 +1,11 @@
+// Nguyễn Hải Đăng - B1910054
+//main
 var main = {
 
     header: function() {
 
     },
-
+    //Hiệu ứng slider
     slider: function() {
         var sliderHomeTrasfer = document.querySelector('.slider__home--box').clientWidth;
 
@@ -21,7 +23,7 @@ var main = {
 
 
         var slider = 0;
-
+        //Hiệu ứng chuyển cảnh
         function nextSlider() {
             if (slider < totalSlider) {
                 slider += sliderHomeTrasfer;
@@ -31,11 +33,11 @@ var main = {
 
             sliderHomeLink.style.marginLeft = '-' + slider + 'px';
         }
-
+        //Lặp lại chuyển cảnh
         setInterval(nextSlider, 10000)
-
+            //Nút bấm chuyển cảnh
         nextBtn.addEventListener('click', nextSlider)
-
+            //Chuyển cảnh ngược
         function prevSlider() {
             if (slider == 0) {
                 slider = totalSlider;
@@ -44,10 +46,10 @@ var main = {
             }
             sliderHomeLink.style.marginLeft = '-' + slider + 'px';
         }
-
+        //Nút chuyển cảnh ngược
         prevBtn.addEventListener('click', prevSlider)
     },
-
+    //Chuyển cảnh product
     product: function() {
         var productBtnNext = document.querySelector('.next__product--next');
         var productBtnPrev = document.querySelector('.prev__product--prev');
@@ -66,7 +68,7 @@ var main = {
         })
 
     },
-
+    //Chuyển cảnh hotProduct
     hotProduct: function() {
         var nextHot = document.querySelector('.hot-transfer-next');
 
@@ -86,7 +88,7 @@ var main = {
             prevHot.style.display = 'none';
         })
     },
-
+    //Chuyển cảnh animeProduct
     animeProduct: function() {
         var nextAnime = document.querySelector('.anime-next');
 
@@ -106,7 +108,7 @@ var main = {
             prevAnime.style.display = 'none';
         })
     },
-
+    //Chuyển cảnh hboProduct
     hboProduct: function() {
         var nextHbo = document.querySelector('.hbo-next');
 
@@ -127,7 +129,7 @@ var main = {
         })
 
     },
-
+    //Show menu phụ
     menuMobileChild: function() {
         var showMenuChild = document.querySelector('.header__menu--box-item-fixx');
 
@@ -147,7 +149,7 @@ var main = {
             hideMenuChild.style.display = 'none';
         })
     },
-
+    //Show menu mobile
     showMenuMobile: function() {
         var menu = document.querySelector('.header__menu--icon');
 
@@ -163,7 +165,7 @@ var main = {
             boxMenu.classList.remove('header__menu--box-block')
         })
     },
-
+    //Hiện nút back-to-top khi scroll trình duyệt
     home: function() {
         window.addEventListener('scroll', function() {
             var topHome = document.querySelector('.back-to-top');
@@ -171,7 +173,7 @@ var main = {
             topHome.classList.toggle('top-home', this.window.scrollY > 600)
         })
     },
-
+    //Thực hiện các công việc
     start: function() {
         this.header();
         this.slider();
